@@ -39,6 +39,7 @@
         justify-content: space-around;
         font-family: 'Jost', sans-serif;
         font-size: 13px;
+        
     }
     .container{
         width: 90%;
@@ -53,6 +54,8 @@
 @media(max-width: 380px){
     .navbar{
         height: 150px;
+        position: fixed;
+        z-index: 10;
     }
     .logo{
         height: 50px;
@@ -74,6 +77,7 @@
         font-size: 40px;
         color: white;
         display: flex;
+        position: fixed;
     }
     .listitem{
         font-size: 50px;

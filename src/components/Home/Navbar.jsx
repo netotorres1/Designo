@@ -17,6 +17,11 @@ const Navbar = () => {
     <header className={styles.navbar}>
         <div className={styles.container}>
             <Link href='/'><Image className={styles.logo} src='/assets/shared/desktop/logo-dark.png' alt='logo-dark' height={20} width={150} /></Link>
+            <nav className={styles.listitems}>
+                <Link href='/about' ><button className={styles.listitem}>Our Company</button></Link>
+                <Link href='/locations'><button className={styles.listitem}>Locations</button></Link>
+                <Link href='/contact'><button className={styles.listitem}>Contact</button></Link>
+            </nav>
             {menu === true ? <nav className={styles.listitems}>
                 <Link href='/about' ><button className={styles.listitem}>Our Company</button></Link>
                 <Link href='/locations'><button className={styles.listitem}>Locations</button></Link>
