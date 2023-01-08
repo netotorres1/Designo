@@ -79,6 +79,21 @@
         display: flex;
         position: fixed;
     }
+    .listitemsdesktop{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 150px;
+        left:1px;
+        background-color: #1d1c1e;
+        height: 430px;
+        width: 770px;
+        z-index: 2;
+        font-size: 40px;
+        color: white;
+        display: flex;
+        position: fixed;
+    }
     .listitem{
         font-size: 50px;
         color: white;
