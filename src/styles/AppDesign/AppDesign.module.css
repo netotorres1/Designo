@@ -1,0 +1,55 @@
+.container{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containercontent{
+    width: 75%;
+    height: 100%;
+    background: #e7816b url('./../../../public/assets/web-design/desktop/bg-pattern-intro-web.svg') no-repeat right;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding: 50px;
+}
+.p{
+    width: 40%;
+    text-align: center;
+    line-height: 30px;
+}
+.title{
+    font-size: 50px;
+    font-weight: 500;
+}
+@media(max-width: 768px){
+    .container{
+        width: 768px;
+        margin-bottom: 300px;
+    }
+    .containercontent{
+        width: 90%;
+    }
+    .p{
+        width: 90%;
+    }
+}
+@media(max-width: 380px){
+   
+    .containercontent{
+        background: #e7816b url('./../../../public/assets/home/desktop/bg-pattern-hero-home.svg') no-repeat right ;
+        width: 100%;
+        border-radius: 0px;
+        height: 400px;
+        position: relative;
+        top: 50px;
+    }
+    .p{
+        font-size: 25px;
+        width: 100%;
+    }
+}

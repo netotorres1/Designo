@@ -1,0 +1,134 @@
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.containerCard{
+    width: 75%;
+    height: 650px;
+    background: #e7816b url('./../../../public/assets/home/desktop/bg-pattern-hero-home.svg') no-repeat right ;
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
+}
+.containerTexts{
+    width: 60%;
+    color: white;
+}
+.img{
+    position: absolute;
+    left: 650px;
+    bottom: 30px;
+}
+.phone{
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+.title{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.text{
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.button{
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #e9a596;
+    color: white;
+}
+.bgpatternleaft{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    z-index: 0;
+}
+@media(max-width: 768px){
+    .container{
+        width: 768px;
+    }
+    .containerCard{
+        width: 90%;
+        height: 930px;
+        overflow: hidden;
+        margin-bottom: 90px;
+    }
+    .button{
+        z-index: 1;
+        position: relative;
+        bottom: 20px;
+    }
+    .img{
+        position: absolute;
+        bottom: -250px;
+        left: 110px;
+        width: 550px;
+        height: 550px;
+    }
+    .bgpatternleaft{
+        display: none;
+    }
+    .containerCard{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerTexts{
+        width: 90%;
+        text-align: center;
+        position: relative;
+        left: 25px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .phone{
+        position: relative;
+        left: -15px;
+        width: 550px;
+    }
+}
+
+@media(max-width: 380px){
+    .containerCard{
+        width: 100%;
+        border-radius: 0%;
+        height: 1000px;
+    }
+    .title{
+        font-size: 45px;
+    }
+    .text{
+        font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .button{
+        width: 300px;
+        height: 100px;
+        font-size: 30px;
+        border-radius: 20px;
+    }
+    .phone{
+        left: 20px;
+    }
+    
+}

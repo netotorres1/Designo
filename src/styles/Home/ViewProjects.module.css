@@ -1,0 +1,159 @@
+.container{
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.containerContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    z-index: 1;
+}
+.cardWebDesign{
+    width: 49%;
+    color: white;
+    border-radius: 10px;
+    background-image: url('./../../../public/assets/home/desktop/image-web-design-large.jpg');
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+.webdesigntext{
+    position: relative;
+    top: 370px;
+}
+.titleWebDesign{
+    text-transform: uppercase;
+}
+.linkWebDesign{
+    text-transform: uppercase;
+}
+.cardAppDesign{
+    background-image: url('./../../../public/assets/home/desktop/image-app-design.jpg');
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+.cardGraphicDesign{
+    background-image: url('./../../../public/assets/home/desktop/image-graphic-design.jpg');
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-size: cover;
+}
+.containerleft{
+    width: 49%;
+}
+.titleAppDesign{
+    text-transform: uppercase;
+}
+.linkAppDesign{
+    text-transform: uppercase;
+}
+.titleGraphicDesign{
+    text-transform: uppercase;
+}
+.linkGraphicDesign{
+    text-transform: uppercase;
+}
+
+@media(max-width: 768px){
+    .container{
+        width: 768px;
+    }
+    .containerContent{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardWebDesign{
+        width: 90%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .containerleft{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardAppDesign{
+        width: 90%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .cardGraphicDesign{
+        width: 90%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+}
+@media(max-width: 380px){
+    .containerContent{
+        width: 100%;
+        
+    }
+    .container{
+        height: 1200px; 
+    }
+    .titleAppDesign{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .titleGraphicDesign{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .titleWebDesign{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .linkAppDesign{
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    .linkGraphicDesign{
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    .linkWebDesign{
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    .cardAppDesign{
+        height: 400px;
+        border-radius: 30px;
+        width: 90%;
+    }
+    .cardGraphicDesign{
+        height: 400px;
+        border-radius: 30px;
+        width: 90%;
+    }
+    .cardWebDesign{
+        height: 400px;
+        border-radius: 30px;
+        width: 90%;
+    }
+}
