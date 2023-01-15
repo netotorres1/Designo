@@ -9,9 +9,8 @@ NextJS | React| Javascript | HTML | CSS
 <h2>Project <a href="https://designo-t3sb-43wuiv6of-netotorres1.vercel.app/">link</a></h2>
 <hr>
 
-![designo1](https://user-images.githubusercontent.com/88563801/211187735-27fbf606-01be-4e65-8f32-295c1a382d83.PNG)
+![CapaDesigno](https://user-images.githubusercontent.com/88563801/212521787-b26dd2f1-0f66-4ac3-9df6-d63d35d2ff5b.png)
 
-![designo2](https://user-images.githubusercontent.com/88563801/211187747-57d67177-4135-45f9-85db-9579d450db0a.PNG)
+![capafooterdesigno](https://user-images.githubusercontent.com/88563801/212521791-7ba7bbf6-dbd4-4b7f-a948-e46d32f4e938.png)
 
-![designo3](https://user-images.githubusercontent.com/88563801/211187750-617c337a-353f-4007-b5bc-4e241e246692.PNG)
-
+![mobiledesigno](https://user-images.githubusercontent.com/88563801/212521792-8dae7b4b-b2a8-4b30-82c2-b759bc2733dd.png)
